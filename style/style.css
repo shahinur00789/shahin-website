@@ -48,9 +48,41 @@ nav li a{
     font-weight: bold;
     font-size: 20px;
     color: white;
+    border:none;
     padding: 18px 35px;
     border-radius: 5px;
 
 
 }
+
+/* header */
+.header{
+    background-image:url(../developer.png), url(../header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+    .banner-greetings{
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .banner-title{
+        font-weight: bold;
+        font-size: 45px;
+    }
+    .banner-profile-pic{
+        width: 580px;
+
+    }
+
 
